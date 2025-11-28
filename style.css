@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap');
+*{
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Stack Sans Headline', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+    #Container{
+        width: 170rem;
+        height: 15rem;
+        background-color: #0f4053d0;
+        display: flex;
+        align-items:left;
+        justify-content: flex-start;
+    }
+    #segredo{
+        font-size: 0.1rem;
+        display: none;
+    }
+    #meuNome{
+        font-size: 8rem;
+        color: #010c18;
+        padding-left: 13rem;
+        white-space: nowrap;
+        padding-top: 2rem;
+    }
+    
+    #meuNome:hover{
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+        color: #c9c9c9;
+    }
+
+    #foto{
+        width: 11rem;
+        height: 12rem;
+        margin-left: 6rem;
+        margin-top: 1rem;
+        border: 3px solid black;
+    }
+
+    #foto:hover{
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+        border: 3px solid #ffffff;
+    }
+    #container2{
+        align-items: left;
+        justify-content: left;
+        display: flex;
+        width: 170rem;
+        height: 4rem;
+        background-color: #052633d0;
+    }
+ 
+        #telefone{
+        width: 3rem;
+        height: 3rem;
+        margin-left: 5.5rem;
+        margin-top: 0.4rem;
+    }
+        #telefone:hover{
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;}
+
+        #endereço{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-left: 2rem;
+        margin-top: 0.6rem;
+    }
+        #endereço:hover{
+        transform: scale(1.1); 
+        transition: all 0.3s ease-in-out;
+    }
+
+        #cake{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-left: 2rem;
+        margin-top: 0.6rem;
+    }
+        #cake:hover{
+        transform: scale(1.1); 
+        transition: all 0.3s ease-in-out;
+    }
+
+    #sobremim{
+        font-size: 2rem;
+        color: #ffffff;
+        padding-left: 18rem;
+        white-space: nowrap;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    #sobremim:hover{
+        color: #b4bebe;
+        text-decoration: underline;
+    }
+
+    #projetos{
+        font-size: 2rem;
+        color: #ffffff;
+        padding-left: 19rem;
+        white-space: nowrap;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    #projetos:hover{
+        color: #b4bebe;
+        text-decoration: underline;
+    }
+
+    #certificações{
+        font-size: 2rem;
+        color: #ffffff;
+        padding-left: 17rem;
+        white-space: nowrap;
+        text-decoration: none;
+        margin-top: 12px;
+    }
+    #certificações:hover{
+        color: #b4bebe;
+        text-decoration: underline;
+    }
+
