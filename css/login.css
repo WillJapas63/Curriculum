@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #feffc6;
+    font-family: 'Stack Sans Headline', sans-serif;
+}
+
+#containerlogin{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40rem;
+    margin-top: 8rem;
+    height: 35rem;
+    width: 40rem;
+    border:1px solid black;
+}
+
+#logintext{
+    margin-right:26rem;
+    margin-top: 2rem;
+}
+
+.inputLogin{
+    margin-top:1.3rem;
+}
+#usertxt{
+    font-size: 15px;
+    margin-right:18rem;
+}
+
+#username{
+    margin-top:0.2rem;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 0.4rem;
+}
+
+#pwdtxt{
+    font-size: 15px;
+    margin-right:20rem; 
+}
+#password{
+    margin-top:0.2rem;
+    width: 25rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.footerLogin{
+    margin-top: 1rem;
+}
+
+#registro{
+    color: rgb(35, 35, 35);
+    font-size: 14px;
+}
+#registro:hover{
+    color: rgb(98, 98, 255);
+    cursor: pointer;
+}
+
+#loginbutton{
+    width: 8rem;
+    height: 2.7rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(98, 98, 255);
+    color: white;
+    font-size: 16px;
+}
+
+#loginbutton:hover{
+    background-color: rgb(70, 70, 255);
+    cursor: pointer;
+}
+
+input{
+    padding-left: 1rem;
+    font-size: 20px;
+    color:rgb(91, 91, 91);
+}
